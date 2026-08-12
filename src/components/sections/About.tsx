@@ -172,9 +172,8 @@ export default function About() {
                   color: "var(--text-primary)",
                 }}
               >
-                <div>Rifqi</div>
-                <div>Muhammad</div>
-                <div>Aliya</div>
+                <div>Agnik</div>
+                <div>Chakraborty</div>
               </div>
             </motion.div>
 
@@ -198,10 +197,7 @@ export default function About() {
                 maxWidth: isMobile ? "100%" : "490px",
               }}
             >
-              Fresh Graduate SMK Rekayasa Perangkat Lunak lulusan 2026 dengan
-              passion di bidang frontend development dan UI modern. Berfokus
-              pada pembuatan website clean, responsif, dan visual yang kuat
-              untuk menghadirkan pengalaman digital yang optimal.
+              Bachelor of Computer Applications (BCA) graduate with a focus on computer networking, network security, and modern application development. Skilled in routing protocols, NAT, ACLs, Python, and building clean, responsive digital solutions.
             </motion.p>
 
             {/* QUOTE */}
@@ -229,8 +225,7 @@ export default function About() {
                 width: "fit-content",
               }}
             >
-              “Turning ideas into clean, modern, and meaningful digital
-              experiences.”
+              “Connecting systems securely and building scalable, user-centric web platforms.”
             </motion.div>
 
             {/* BUTTONS */}
@@ -245,7 +240,7 @@ export default function About() {
             >
               {/* DOWNLOAD CV */}
               <a
-                href="https://drive.google.com/file/d/1cFqZ0TY0U0I51K0Tchv8E4sbOv5yAZ9x/view?usp=drive_link"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
