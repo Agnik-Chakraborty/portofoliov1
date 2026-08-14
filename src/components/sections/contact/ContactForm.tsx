@@ -11,10 +11,8 @@ import {
 
 import {
   FaLinkedinIn,
-  FaInstagram,
   FaGithub,
-  FaYoutube,
-  FaTiktok,
+  FaEnvelope,
 } from 'react-icons/fa'
 
 const smoothEase: [number, number, number, number] = [
@@ -41,28 +39,16 @@ const fieldVariants: Variants = {
 
 const socialLinks = [
   {
-    title: 'Instagram',
-    user: '@instagram',
-    icon: FaInstagram,
-    link: 'https://www.instagram.com/itsmeikky_12?igsh=ZHFpMTJ1bHQzeDAx',
-  },
-  {
-    title: 'Youtube',
-    user: '@youtube',
-    icon: FaYoutube,
-    link: 'https://youtube.com/@zettaajah?si=QRjJGD4zCQG8aIHX',
-  },
-  {
-    title: 'Github',
-    user: '@github',
+    title: 'GitHub',
+    user: '@Agnik-Chakraborty',
     icon: FaGithub,
-    link: 'https://github.com/RifqiMuhammadAliya12',
+    link: 'https://github.com/Agnik-Chakraborty',
   },
   {
-    title: 'TikTok',
-    user: '@tiktok',
-    icon: FaTiktok,
-    link: 'https://www.tiktok.com/@itsme.ikky_?_r=1&_t=ZS-95yAYr5PHUb',
+    title: 'Email',
+    user: 'Direct Email',
+    icon: FaEnvelope,
+    link: 'mailto:chakrabortyagnik2003@gmail.com',
   },
 ]
 
@@ -84,7 +70,7 @@ export default function ContactForm() {
         transition={{ delay: 0.05 }}
       >
         <h2 className="text-2xl md:text-3xl font-bold mb-3">
-          Hubungi Saya
+          Get in Touch
         </h2>
 
         <p className="text-sm text-white/50 mb-7">
@@ -162,7 +148,7 @@ export default function ContactForm() {
             transition: { duration: 0.12 },
           }}
           whileTap={{ scale: 0.97 }}
-          className="w-full rounded-2xl py-4 bg-white/10 border border-white/10 flex items-center justify-center gap-2"
+          className="w-full rounded-2xl py-4 bg-white/10 border border-white/10 flex items-center justify-center gap-2 font-semibold hover:bg-white/20 transition duration-200"
         >
           <Send size={16} />
           Send Message
@@ -184,7 +170,7 @@ export default function ContactForm() {
 
         {/* LINKEDIN */} 
         <motion.a
-          href="https://www.linkedin.com/in/rifqimuhammadaliya/"  
+          href="https://www.linkedin.com/in/agnik-chakraborty-576aa524b/"  
           target="_blank"
           rel="noopener noreferrer"
           variants={fieldVariants}
@@ -205,7 +191,7 @@ export default function ContactForm() {
 
             <div>
               <p className="text-sm font-medium">LinkedIn</p>
-              <p className="text-xs text-white/35">@linkedin</p>
+              <p className="text-xs text-white/35">Connect on LinkedIn</p>
             </div>
           </div>
 
