@@ -18,12 +18,9 @@ import {
   X,
 } from "lucide-react";
 
-export function generateStaticParams() {
-  return [];
-}
-
 export default function ProjectDetailPage() {
-  const { id } = useParams();
+  const params = useParams();
+  const id = params?.id;
   const router = useRouter();
 
   const [project, setProject] = useState<any>(null);
@@ -33,8 +30,8 @@ export default function ProjectDetailPage() {
   const [previewOpen, setPreviewOpen] = useState(false);
 
   useEffect(() => {
-    fetchProject();
-  }, []);
+    if (id) fetchProject();
+  }, [id]);
 
   const fetchProject = async () => {
     const { data } = await supabase
