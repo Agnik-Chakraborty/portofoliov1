@@ -240,7 +240,7 @@ export default function About() {
             >
               {/* DOWNLOAD CV */}
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1UxCiEVRrCTd5d6iEZmgt8jfuER356fCx/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
